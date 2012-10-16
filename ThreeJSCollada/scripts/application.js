@@ -1,8 +1,6 @@
 
 $( document ).ready( function(){
 	
-
-	
 	setupThree()
 	addLights()
 
@@ -88,10 +86,10 @@ loader.load( 'models/Themis.dae', function ( collada ) {
 	THEMIS.position.x= 110;
 	THEMIS.position.y= 110;
 	console.log(THEMIS)
-
+	group.add(THEMIS)
 });
 
-group.add(THEMIS)
+
 
 
 scene.add( group )
