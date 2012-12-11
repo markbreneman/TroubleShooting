@@ -1,0 +1,70 @@
+{% extends "layout/mainlayout2.html" %}
+
+{% block scriptsone %}
+<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>  
+{% endblock %}
+
+
+{% block stylesone %}
+<link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />  
+{% endblock %}
+
+{% block body %}
+
+<div class="twelve columns">
+<h3>Great! Here are Some Dog Parks Near You!</h3>
+</div>
+
+<div class="twelve columns mapContainer">
+<div id="map">
+</div>
+
+<div class="twelve columns">
+<h4>And here are some of the other dogs who are using OffLeash</h4>
+<div class="six columns results">
+{% for dog in dogsentries %}
+<div class="twelve columns dogEntry"> 
+	<div class="four columns dogPhoto">
+		<img class="dogProfileImage" src="static/img/pug2.jpg" </>
+	</div>
+	<div class="eight columns dogInfo">	
+	<div class=dogName>Name: {{ dog.dog_name }}</div>
+	<div class=dogBreed>Breed:{{ dog.breed }}</div>
+	<div class=dogAge>Age:{{ dog.age }}</div>
+	<div class=dogSize>Size:{{dog.dogsize}}</div>
+	<br> 
+	</div>
+</div>
+{% endfor %}
+</div>	    
+
+
+<div class="six columns results">
+{% for venue in venueentries %}
+<a href="/venueName">
+	<div class="twelve columns venueEntry"> 
+	<div class="four columns venuePhoto">
+		<img class="venueImage" src="static/img/HillsideDogRun.jpg" </>
+	</div>
+	<div class="eight columns dogInfo">	
+	<div class=venueName>Venue Name: {{ venue.venue_name }}</div>
+	<div class=venueAddress>Venue Address:{{ venue.venue_address }}</div>
+	<br> 
+	</div>	
+</a>
+{% endfor %}
+</div>
+</div>
+</div>
+
+{% endblock %}
+
+{% block scriptstwo %}
+<script src="static/js/getMap.js"></script>
+{% endblock %}
+
+{% block stylestwo %}
+{% endblock %}
+
+
+

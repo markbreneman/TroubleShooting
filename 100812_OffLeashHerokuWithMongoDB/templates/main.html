@@ -1,0 +1,66 @@
+
+{% from "_form_helpers.html" import render_error, render_textarea %}
+{% extends "layout/mainlayout1.html" %}
+
+{% block stylesone %}{% endblock %}
+{% block scriptsone %}{% endblock %}
+{% block body %}
+
+<div class= "twelve columns">
+<div class="four columns">    
+<p class="intro"> 
+    Off Leash is dog check-in service for dog owners who want to know if there are any dogs at their local dog park and what types of dog are there.
+
+    The goal of Off Leash is to create the best dog playtime at dog parks by giving owners the ability to decide if their dog will fit in among the other dogs before venturing out to the dog park.
+
+    To sign up for Off Leash enter your details to the right.
+</p>
+</div>
+<div class="four columns" id="signin">
+	<form method="POST" action="/newdog">
+        <h3>Signup</h3>
+
+            {% if form.errors %}
+
+                <ul class="errors">
+                    {% for field_name, field_errors in form.errors|dictsort if field_errors %}
+                        {% for error in field_errors %}
+                            <li class="alert">{{ form[field_name].label }}: {{ error }}</li>
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            
+            {{ form.first_name.label(class='myLabelCssClass') }}
+            {{ form.first_name(class='myTextboxCssClass') }}
+            {{ render_error(form.first_name) }}
+
+            <!-- {{ form.last_name.label(class='myLabelCssClass') }}
+            {{ form.last_name(class='myTextboxCssClass') }}
+            {{ render_error(form.last_name) }} -->
+
+<!--         <label>First Name:</label><input type="text" name="first_name" id="first_name"/>
+        <label>Last Name:</label><input type="text" name="last_name" id="last_name"/>
+        <label>Email:</label><input type="text" name="email" id="email"/>
+        <label>Password:</label><input type="password" name="password" id="password"/> -->
+		<input class="submitbutton" type="submit" value="Join"/>
+	</form>
+</div>
+
+<!-- <div class="three columns">
+        <form action="/finddogparks" method="POST">
+        <h3>Login</h3>
+        <label>E-mail:</label> <input type="text" name="email" id="email"/>
+        <label>Password:</label> <input type="text" name="password" id="password"/>
+        <input class="submitbutton" type="submit" value="Sign-in"/>
+    </form>
+</div> -->
+
+<div class= "twelve column">
+<img class="mainfooterimage" src="static/img/PugGrass.svg" </>
+</div>
+{% endblock %}
+
+
+{% block stylestwo %}{% endblock %}
+{% block scriptstwo %}{% endblock %}

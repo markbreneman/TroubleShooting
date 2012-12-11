@@ -1,0 +1,201 @@
+
+body { font-family: sans-serif;
+	    background: #6f6a61; 
+	 }
+
+
+a, h1 { color: #f5f2eb; }
+
+
+h1 { font-family: 'Conv_Knockout-HTF51-Middleweight', serif; 
+    margin: 0;
+    font-size: 6.5em; 
+   }
+
+h2 { font-family:'Conv_Sentinel-Semibold';
+	font-size: 1.5em; 
+}
+
+
+
+.mainfooterimage{
+ 	z-index: 0;
+	float: left;
+	position: relative;
+	width:100%;
+}
+
+.mainTitle{
+text-transform: uppercase;
+}
+
+
+.mainTitleSmaller{
+text-transform: uppercase;
+font-size: 3.8em;
+}
+
+.logoImage
+{
+	margin-left: -7em;
+}
+
+.taglineSmaller{
+font-size: .9em;
+}
+
+.navigation{
+margin-top: 1.5em;
+}
+
+.navigation li{
+overflow: hidden;
+float: left;
+display: inline;
+margin-right: 1.5em;
+margin-top: 2em;
+}
+
+.navList{float:right}
+
+.navLink{
+list-style-type: none;
+}
+
+form{
+
+
+	font-family: 'Conv_Sentinel-Semibold';
+	text-align:justify;
+	color:#f5f2eb;
+}
+
+
+form input{
+
+}
+
+form{
+
+}
+
+
+#signin{
+	float:right;
+	
+}
+
+.submitbutton{
+	font-family: 'Conv_Sentinel-Semibold';
+	margin-left:10em;
+	background:#f5f2eb;
+	border:none;
+	font-size:1.2em;
+	color:#6f6a61;
+	
+}
+
+.aboutlink{
+	float:right;
+	margin-top: 1em;
+	margin-right: 1em;
+
+	
+}
+
+.intro{
+	font-family:'Conv_Knockout-HTF31-JuniorMiddlewt';
+	font-size:1.25em;
+	color:#f5f2eb;
+	text-align:justify;
+	float:left;
+}
+
+
+.drop_zone {
+	background-color: gray;
+	opacity: .5;
+	line-height: 15em;
+	text-align: center;
+	font-size: 1em;
+	margin-right: .75em;
+	margin-bottom: .75em;
+}
+.drop_zone.over {
+    opacity: 1;
+}
+
+.photoPanel{
+	border-left: .5em;
+	border-left-color: black;
+	border-left-style: solid;
+}
+
+.introMessage{
+	margin-bottom: 1em
+}
+
+#map { 
+	min-height: 35em;
+	margin:1.5em;
+	}
+
+.results{
+border-radius: 5px;
+background: rgb(104, 99, 91);	
+padding:.5em;
+}
+
+.dogEntry, .venueEntry{
+background: rgba(0, 0, 0, 0.03);
+border-bottom: 1px solid #f7f7f7;
+border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+overflow: hidden;
+border-radius: 5px;
+margin-bottom: 1.25em;
+padding:.5em;
+}
+
+.dogProfileImage, .venueImage{
+border-radius: 8px;
+border-style: solid;
+border-width: 6px;
+border-color: whitesmoke;
+}
+
+.dogName, .venueName{
+	font-size: 1.5em;
+color: white;
+line-height: 1.25em;
+}
+.dogBreed, .dogAge, .dogSize, .venueAddress{
+	font-size: 1.25em;
+line-height: 1.5em;
+}
+
+
+
+@font-face {
+	font-family: 'Conv_Sentinel-Semibold';
+	src: url('static/Fonts/Sentinel-Semibold.eot');
+	src: local('☺'), url('/static/Fonts/Sentinel-Semibold.woff') format('woff'), url('/static/Fonts/Sentinel-Semibold.ttf') format('truetype'), url('/static/Fonts/Sentinel-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Knockout-HTF51-Middleweight';
+	src: url('/static/Fonts/Knockout-HTF51-Middleweight.eot');
+	src: local('☺'), url('/static/Fonts/Knockout-HTF51-Middleweight.woff') format('woff'), url('/static/Fonts/Knockout-HTF51-Middleweight.ttf') format('truetype'), url('/static/Fonts/Knockout-HTF51-Middleweight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Knockout-HTF31-JuniorMiddlewt';
+	src: url('/static/Fonts/Knockout-HTF31-JuniorMiddlewt.eot');
+	src: local('☺'), url('/static/Fonts/Knockout-HTF31-JuniorMiddlewt.woff') format('woff'), url('/static/Fonts/Knockout-HTF31-JuniorMiddlewt.ttf') format('truetype'), url('/static/Fonts/Knockout-HTF31-JuniorMiddlewt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

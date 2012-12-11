@@ -1,0 +1,358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"venu",
+				"venueName"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"Venue",
+				"venue_address"
+			],
+			[
+				"templa",
+				"templateData"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"normaliz",
+				"normalizedVector212"
+			],
+			[
+				"ea",
+				"earthRadius"
+			],
+			[
+				"space",
+				"spacedPoints"
+			],
+			[
+				"pos",
+				"positionVector1"
+			],
+			[
+				"po",
+				"positionVector2"
+			],
+			[
+				"S",
+				"Scene"
+			],
+			[
+				"posi",
+				"positionVector2"
+			],
+			[
+				"cros",
+				"crossProductVec"
+			],
+			[
+				"conr",
+				"controlPoint"
+			],
+			[
+				"control",
+				"controlPoint"
+			],
+			[
+				"sub",
+				"subtractionVector"
+			],
+			[
+				"Line",
+				"LineStrip"
+			],
+			[
+				"each",
+				"forEach"
+			],
+			[
+				"position",
+				"positionVector1"
+			],
+			[
+				"lat",
+				"latLongToVector3"
+			],
+			[
+				"point",
+				"point1"
+			],
+			[
+				"earth",
+				"earthRadius"
+			],
+			[
+				"eart",
+				"earthRadius"
+			],
+			[
+				"A",
+				"ASTRONAUT"
+			],
+			[
+				"marker",
+				"markerHead"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 506.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/newdog.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/TestImageUploader.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/README.md",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/main.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/app.py",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/finddogparks.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/venueName.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/about.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/OffLeash.sublime-workspace",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/foundationindex.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/layout/mainlayout2.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/layout/mainlayout1.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/Javascripts/offLeash.js",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/dnd-upload.css",
+		"/Users/markbreneman/Desktop/112012_BananaPhone/112012_BananaPhone.sublime-project",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/OffLeash.sublime-project",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/.env",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/models.py",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/Images/PugGrass.svg",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/404.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/CSS/styles.css",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/Images/HillsideDogRun.jpg",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/javascripts/getMap.js",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/requirements.txt",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/_posts/2011-09-12-intro-to-computational-media-week-1.md",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/Images/pug2.jpg",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/CSS/app.css",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/static/CSS/foundation.min.css",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/templates/layout/mainlayout.html",
+		"/Users/markbreneman/Desktop/100812_OffLeashHerokuWithMongoDB/env/.Python",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/_posts/2012-10-22-MakeMatics-SVM-SpiceIndex.md",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/images/2012-10-22-MakeMatics-SVM-SpiceIndex-04.jpg",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/images/2012-10-22-MakeMatics-SVM-SpiceIndex-00.jpg",
+		"/Users/markbreneman/Downloads/svm models/README",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/_posts/2012-10-20-MakeMatics-Week3.md",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/slides/slidesref.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/slides/slides.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/sourcelocalization/app.yaml",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/app/main.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/styles/base.css",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/curve.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/mrdoob-three.js-ef5f05d/examples/webgl_geometry_shapes.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/media/Space02.jpg",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/twitterEarth/twitterearth.sublime-project",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/simpleline.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/mrdoob-three.js-ef5f05d/examples/webgl_ribbons.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/media/earthTexture.png",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/boilerplate/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/THREEx.screenshot.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/GUI Start",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/TwitterEarth.sublime-workspace",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/twitterEarth/templates/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/boilerplate/101512Boilerplate.sublime-project",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/index.py",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/extramodels.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/models/MESSENGER.dae",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/app.yaml",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS Boilerplate-mb/js/application-mb.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/static/scripts/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/static/scripts/three.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/ThreeJS.sublime-project",
+		"/Users/markbreneman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/101112 ThreeJS-GlobePoints.tmproj",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/threejsboilerplate/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/threejsboilerplate/js/application.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/javascripts",
+			"\n",
+			".",
+			"script",
+			"surface ",
+			"tweets",
+			"tweetIndex",
+			"line",
+			"space",
+			"skybox",
+			"scene",
+			"render",
+			"camera",
+			"controls",
+			"createSpaced",
+			"cubic",
+			"bezier",
+			"position.y",
+			"renderer",
+			"render",
+			"inline",
+			"- Hold down <i>A</i> and move your mouse around to rotate around the scene.\n                        - Hold down <i>S</i> and move your mouse up or down to zoom.\n                        - Hold down <i>D</i> and move your mouse around to pan.",
+			"print",
+			"webgl",
+			"scene",
+			"dae"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/js",
+			"galaxyBox"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 424.0,
+	"status_bar_visible": true
+}

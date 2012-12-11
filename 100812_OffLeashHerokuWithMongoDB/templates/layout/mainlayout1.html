@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Welcome to Off Leash!</title>
+  <meta name="author" content="Mark Breneman">  
+  <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+    <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    
+<!-- Included CSS Files (Uncompressed) -->
+      <!--
+      <link rel="stylesheet" href="stylesheets/foundation.css">
+      -->
+<!-- Included CSS Files (Compressed) -->
+      <link rel="stylesheet" href="static/CSS/foundation.min.css">
+      <link rel="stylesheet" href="static/CSS/app.css">
+      <script src="static/js/modernizr.foundation.js"></script>
+      <!-- IE Fix for HTML5 Tags -->
+      <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      {% block scriptsone %}{% endblock %}
+      <link rel="stylesheet" href="static/CSS/styles.css" type="text/css">
+      {% block stylesone %}{% endblock %}
+</head>
+<body>
+
+<div class="twelve columns pageheader">
+<h1 class="mainTitle"> <a href="/">Off Leash</a></h1>
+</div>
+
+<div class="twelve columns tagline">
+<h2> A dog check-in service for dog parks</h2>
+</div>
+
+        {% block body %}{% endblock %}
+
+ <footer class="twelve columns">
+       <a class="aboutlink" href='/about'>About</a><br>    
+  </footer>
+
+  </body>
+
+        {% block scriptstwo %}{% endblock %}
+        {% block stylestwo %}{% endblock %}
+  <!-- Included JS Files (Compressed) -->
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="static/js/app.js"></script>
+  
+</html>

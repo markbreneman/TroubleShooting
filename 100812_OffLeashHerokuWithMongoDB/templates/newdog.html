@@ -1,0 +1,56 @@
+{% extends "layout/mainlayout2.html" %}
+
+{% block stylesone %}{% endblock %}
+{% block scriptsone %}{% endblock %}
+{% block body %}
+<div class="twelve columns introMessage">
+<h3>Welcome {{first_name}} {{last_name}} to Off Leash.  Lets start by setting up a profile of your dog(s)</h3>
+</div>
+
+<div class= "twelve columns">
+    <form action="/finddogparks" method="POST" enctype="multipart/form-data">
+        <div class= "six columns">
+        <h3>Dog Number 1</h3>
+        <label>Name:</label><input type="text" name="dog_name" id="dog_name"/>
+        <label>Breed:</label><input type="text" name="dog_breed" id="dog_breed"/>
+        <label>Age:</label><input type="text" name="dog_age" id="dog_age"/>
+        <label for="standardDropdown">Select-A-Size</label>
+        <select id="standardDropdown" name="dog_size">
+        							<option name="dog_size">Large(>100 lbs)</option>
+        							<option name="dog_size">Medium(>30 lbs )</option>
+        							<option name="dog_size">Small(>0 lbs )</option>
+	    </select>
+	    </div>
+
+                
+            <!--     {{ form.title.label }}
+                {{ form.title }} -->
+
+                <!-- {{ form.description.label }}
+                {{ form.description }}
+
+                {{ form.postedby.label }}
+                {{ form.postedby }} -->
+                <br>
+                <!-- {{ form.fileupload.label }} -->
+                <!-- {{ form.fileupload }} -->
+                <br><br>
+                <input class="btn btn-success" type="submit" value="upload">
+
+
+            </form>
+	    
+	    <div class= "six columns photoPanel"> 
+	        <h4>Add Images of Your Dog</h4>
+	        <div id="drop_zone" class="five columns drop_zone" >Drop Zone</div>
+	        <div class="five columns end drop_zone">Drop Zone</div>
+	        <div class="five columns drop_zone">Drop Zone</div>
+	        <div class="five columns end drop_zone">Drop Zone</div>
+        </div>					
+		<input class="submitbutton" type="submit" value="submit"/>
+	</form>
+
+{% endblock %}
+
+{% block stylestwo %}{% endblock %}
+{% block scriptstwo %}{% endblock %}
