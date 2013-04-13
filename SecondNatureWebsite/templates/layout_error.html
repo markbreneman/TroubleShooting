@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Second Nature Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/png" 
+      href="../static/favicon.ico">
+
+    <title>The Second Nature Project - </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block meta %}{% endblock %}
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap-responsive.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/secondnature.css') }}" rel="stylesheet">
+
+    {% block styles %}{% endblock %}
+    
+    
+  </head>
+
+  <body>
+    
+
+  <!-- Navbar
+    ================================================== -->
+       
+  <div class="navbar-wrapper">
+        <div class="navbar">
+          <div class="navbar-inner">
+             
+             <a class="brand" href="/">The Second Nature Project</a>
+
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+           
+            <div class="nav-collapse collapse">
+              <ul class="nav pull-right">
+                {% if current_user.is_anonymous() %}
+                <li><a href="/#HowItWorks">How it Works</a></li>
+                <li><a href="/#RecentPhotos">Recent Photos</a></li>
+                <li><a href="/#SignUp">Register</a></li>
+                
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
+                  <ul class="dropdown-menu pull-right">
+                    <!-- <li><a href="/login">Login</a></li> -->
+                    <form class="well" method="post" action="/login">
+                    {{ form.email.label }} {{ form.email(type="email") }}
+                    {{ form.password.label }} {{ form.password }}<br>
+                    <input type="checkbox" name="remember" value="yes"> Remember me
+                    <br><br>
+                    <input type="submit" value="Login">
+                    </form>
+
+
+                  </ul>
+                </li>
+
+                <li><a href="/requirements">Requirements</a></li>
+                <li><a href="/contact">Contact</a></li>
+
+                {% else %}
+                <li><a href="/photostream">Photostream</a></li>
+                <li><a href="/users/{{current_user.username}}">{{ current_user.username}}'s Photos</a></li>
+                <li><a href="/admin">Profile Settings</a></li>
+                <li><a href="/donate">Donate</a></li>
+                <li><a href="/logout">Logout</a></li>
+                {% endif %}
+
+              </ul><!--/.nav-->
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+    </div><!-- /.navbar-wrapper -->
+
+    <section id="mainbody">
+    {% block body %}{% endblock %}
+    </section>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    {% block scripts %}{% endblock %}
+
+  </body>
+</html>

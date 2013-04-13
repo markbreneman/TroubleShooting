@@ -1,0 +1,161 @@
+{% extends "layouthome.html" %}
+
+{% block body %}
+ 
+    <!-- Home -->
+    <!-- ================================================== -->
+    <div id="Home" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <div class="logoCaption">
+            <img id="Logo" src="../static/img/logo.png">
+            <img id="Ellipses" src="../static/img/ellipses.png">
+            <h1 id="Tagline">Smart Phones for Science</h1>
+          </div><!-- /.logoCaption -->
+          </div><!-- /.container -->
+        </div><!-- /.item active -->
+      </div><!-- /.carousel-inner-->
+    </div><!-- /.carousel -->
+
+    <!-- RecentPhotos -->
+    <!-- ================================================== -->
+      <div id="HowItWorks" class="carousel slide scroll">
+      <div class="carousel-inner">
+          <div class="container">
+            <div class="row">
+
+              <h2 class="sectionTitle">How It Works</h2> 
+              <img src="../static/img/ArrowRight.png">
+
+              <h3 class="copyText">The Second Nature Project transforms donated smartphones into wildlife cameras.</h3>
+
+              <div class="span3 step">
+                <img src="../static/img/SignUp.png">
+                <h2 class="stepCaption">Signup</h2>
+              </div><!-- /.span4 -->
+          
+              <div class="separator hidden-phone hidden-tablet">
+              <div class="circle"></div>  
+              <img class="" src="../static/img/HorizontalLine.png">
+              </div>
+
+              <div class="span3 step">
+                <img src="../static/img/SendOff.png">
+                <h2 class="stepCaption">Sendoff</h2>
+              </div><!-- /.span4 -->
+
+              <div class="separator hidden-phone hidden-tablet">
+              <div class="circle"></div>  
+              <img class="" src="../static/img/HorizontalLine.png">
+              </div>
+
+              <div class="span3 step">
+                <img src="../static/img/Deploy.png">
+                <h2 class="stepCaption">Deploy</h2> 
+              </div><!-- /.span4 -->
+
+              <div class="separator hidden-phone hidden-tablet">
+              <div class="circle"></div>  
+              <img class="" src="../static/img/HorizontalLine.png">
+              </div>
+
+              <div class="span3 step">
+                <img src="../static/img/Notify.png">
+                <h2 class="stepCaption">Notify</h2> 
+              </div><!-- /.span4 -->
+            
+            <h3 class="copyText">Consumers can signup and donate their phones to be deployed into the wild under the supervision of wildlife researchers. When phone takes a picture it notifies the user letting them see how their donation is working.</h3>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+       </div>   
+    </div>
+      <!-- RecentPhotos -->
+
+      <div id="RecentPhotos" class="carousel slide scroll">
+      <div class="carousel-inner">
+          <div class="container">
+            <div class="row">
+              <h2 class="sectionTitle">Recent Photos</h2> 
+              <img class="" src="../static/img/ArrowLeft.png">
+
+              <h3 class="copyText">Below are a just a few of the most recent photos from the wild.  By donating to the Second Nature Project you can help document and identify some of the worlds rarest and threatened species, helping conservationist and researchers.</h3>
+
+              <div class="span4 tile">
+                <img src="../static/img/Tiger.jpg">
+                <h2>Amur Tiger, Siberia</h2>
+              </div><!-- /.span4 -->
+
+              <div class="span4 tile">
+                <img src="../static/img/TreeShrew.jpg">
+                <h2>Tree Shrew, Indonesia</h2>
+              </div><!-- /.span4 -->
+
+              <div class="span4 tile">
+                <img src="../static/img/CrownedGuenonMonkey.jpg">
+                <h2>Crowned Guenon Monkey, Congo</h2> 
+              </div><!-- /.span4 -->
+
+           <h3 class="copyText">By donating to the Second Nature Project you can help document and identify some of the worlds rarest and threatened species, helping conservationist and researchers.</h3>
+            
+            </div><!-- /.row -->  
+          </div><!-- /.container -->
+      </div>
+    </div>
+
+    <div id="SignUp" class="carousel slide scroll">
+        <div class="carousel-inner">
+            <div class="container">
+              <div class="row">
+                <h3 class="brand pull-left">The Second Nature Project</h3>
+                
+                <img class="smallerLogo hidden-phone pull-right" src="../static/img/logo.png">
+              </div>
+              <div class="row">
+
+                <h3 class="copyText span6">To participate in The Second Nature Project begin by creating an account to the right.  After your account is created you will have access to the all the current photos being taken and walked through the donation process. </h3>
+   
+                <div class="span4 offset1">
+                    <h1 class="sectionTitle">Sign Up</h1>
+                    
+                    {% with messages = get_flashed_messages(category_filter=["register"]) %}
+                      {% if messages %}
+                        <ul class=flashes>
+                        {% for message in messages %}
+                          <li class="alert">{{ message }}</li>
+                        {% endfor %}
+                        </ul>
+                      {% endif %}
+                    {% endwith %}
+
+                    {% if form.errors %}
+                    <ul class="errors">
+                        {% for field_name, field_errors in form.errors|dictsort if field_errors %}
+                            {% for error in field_errors %}
+                                <li class="alert">{{ form[field_name].label }}: {{ error }}</li>
+                            {% endfor %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+
+
+                    <div class="well">
+                        <form action="/register" method="POST">
+                            {{ form.csrf_token }}
+                            {{ form.username.label }} {{ form.username }}
+                            {{ form.email.label }} {{ form.email }}
+                            {{ form.password.label }} {{ form.password }}
+                            {{ form.confirm.label }} {{ form.confirm }}
+                            <br>
+                            <input type="submit" value="Go"> <small style="color:white;">(all fields required)</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div><!-- /.container -->
+         </div>   
+      </div>
+
+
+
+{% endblock %}
